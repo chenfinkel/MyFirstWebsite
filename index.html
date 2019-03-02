@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<META NAME = "keywords" CONTENT = "Webpage, HTML, 
+   assignment, personal, amature, BGU, Internet Programming Enviroments">
+
+<META NAME = "description" CONTENT = "This Web site is the first assignment of the course 
+'Internet Programming Enviroments' at Ben Gurion University.">
+
+<TITLE>Welcome to my website!</TITLE>
+
+</head>
+<body>
+<div id="menu">
+<li><a href="#about">About Me</a></li>
+<li><a href="#photos">My Photos</a></li>
+<li><a href="#playlist">My Playlist</a></li>
+<li><a href="#like">Like</a></li>
+<li><a href="#qrcoder">QR code</a></li>
+<li><a href="#spa">Q&A</a></li>
+<li><a href="#contact">Contact Me</a></li>
+</div>
+		  
+<section id="about" class="section">
+<br/>
+<br/>
+<br/>
+<br/>
+<div class="strike">
+    <span>About Me</span>
+ </div>
+<br/>
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="photos" class="section">
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <div class="strike">
+        <span>My Photos</span>
+     </div>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+</section>
+
+<section id="playlist" class="section">
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <div class="strike">
+        <span>My Playlist</span>
+     </div>
+     <br/>
+     <br/>
+     <div id="playlist"></div>
+     <iframe width="560" height="315" alignment="middle" src="https://www.youtube.com/embed/videoseries?list=PLGxBhZF1ea03vk7yLCvg2ZoC9OzMCtjjX" 
+     frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+     allowfullscreen></iframe>
+    </div>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+</section>
+
+<section id="like" class="section">
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <div class="strike">
+        <span>Like Me!</span>
+     </div>
+    <br/>
+    <br/>
+      <div id="like">
+      <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FRoss-Geller-22819855829%2F&width=450&layout=standard&action=like&size=large&show_faces=true&share=false&height=80&appId" 
+      width="450" height="80" alignment="middle" style="border:none;overflow:hidden" scrolling="no" 
+      frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+    </div>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+</section>
+
+<section id="qrcoder" class="section">
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <div class="strike">
+        <span>Scan Me</span>
+     </div>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+</section>
+
+<section id="spa" class="section">
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <div class="strike">
+        <span>Q&A</span>
+     </div>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+</section>
+
+<section id="contact" class="section">
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <div class="strike">
+        <span>Contact Me</span>
+     </div>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+</section>
+
+
+<script type="text/javascript">
+$(function(){
+  $("#nav a").click(function(e){
+    e.preventDefault();
+    $('html,body').scrollTo(this.hash,this.hash); 
+  });
+});
+</script>
+<script type="text/javascript">
+ $(document).scroll(function() {
+    $('#menu').toggle($(this).scrollTop()>1000)
+ });​
+ </script>
+</body>
+</html>
