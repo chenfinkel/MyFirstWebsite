@@ -1,73 +1,88 @@
+
 body {
-  background-color: lightblue;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #fff0f0;
+}
+
+h1 {
+font-family: Josefin Sans;
 }
 
 #menu {
-position: fixed;
-  top: 0;
-  width: 100%;
   list-style-type: none;
   margin: 0;
   padding: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
   overflow: hidden;
-  background-color: #333;
-z-index: 1;
+  background-color: #00ac8f;
+  z-index: 1;
 }
 
 li {
-  float: left;
+  float: right;
 }
 
 li a {
   display: block;
-  color: white;
+  color: #aae2b2;
   text-align: center;
   padding: 14px 16px;
+  font-family: "arial";
   text-decoration: none;
+  font-weight: bold;
 }
 
 li a:hover {
-  background-color: #111;
+  background-color: #006655;
 }
 
 .strike {
-    display: block;
-    text-align: center;
-    overflow: hidden;
-    white-space: nowrap; 
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap; 
 }
 
 .strike > span {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
+  color: #e8c8b3
 }
 
 .strike > span:before,
 .strike > span:after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    width: 600px;
-    height: 5px; /* space between lines */
-    margin-top: -2px; /* adjust vertical align */
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 400px;
+  height: 5px; /* space between lines */
+  margin-top: -2px; /* adjust vertical align */
+  border-top: 3px solid #e8c8b3;
+  border-bottom: 3px solid #e8c8b3;
 }
 
 .strike > span:before {
-    right: 100%;
-    margin-right: 15px;
+  right: 100%;
+  margin-right: 15px;
 }
 
 .strike > span:after {
-    left: 100%;
-    margin-left: 15px;
+  left: 100%;
+  margin-left: 15px;
 }
 
 #playlist {
-	text-align: center;
+  text-align: center;
 }
 
 #like {
-	text-align: center;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
 }
