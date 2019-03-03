@@ -81,3 +81,10 @@ li a:hover {
   padding: 0;
   text-align: center;
 }
+
+table, td{
+  border-collapse: collapse;
+  padding: 0;
+  text-align: center;
+  background-color: white;
+}
