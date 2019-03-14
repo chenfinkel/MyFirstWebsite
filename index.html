@@ -10,6 +10,8 @@
 'Internet Programming Enviroments' at Ben Gurion University.">
 
     <TITLE>Welcome to my website!</TITLE>
+    <link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Lemon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sniglet">
 
 </head>
 
@@ -31,7 +33,7 @@
         <br />
         <div class="strike">
             <span>
-                <h1>About Me</h1>
+                <h1 style="font-family: 'Lemon', cursive;">About Me</h1>
             </span>
         </div>
         <br />
@@ -65,7 +67,7 @@
         <br />
         <div class="strike">
             <span>
-                <h1>My Photos</h1>
+                <h1 style="font-family: 'Lemon', cursive;">My Photos</h1>
             </span>
         </div>
         <br />
@@ -199,7 +201,7 @@
         <br />
         <div class="strike">
             <span>
-                <h1>My Playlist</h1>
+                <h1 style="font-family: 'Lemon', cursive;">My Playlist</h1>
             </span>
         </div>
         <br />
@@ -223,7 +225,7 @@
         <br />
         <div class="strike">
             <span>
-                <h1>Like Me!</h1>
+                <h1 style="font-family: 'Lemon', cursive;">Like Me!</h1>
             </span>
         </div>
         <br />
@@ -247,9 +249,10 @@
         <br />
         <div class="strike">
             <span>
-                <h1>Scan Me</h1>
+                <h1 style="font-family: 'Lemon', cursive;">Scan Me</h1>
             </span>
         </div>
+        <img src=photos/qrcode.JPG />
         <br />
         <br />
         <br />
@@ -263,55 +266,70 @@
         <br />
         <div class="strike">
             <span>
-                <h1>Q&A</h1>
+                <h1 style="font-family: 'Lemon', cursive;">Q&A</h1>
             </span>
         </div>
         <h1>What are the differences between Web 1.0, Web 2.0 and Web 3.0?</h1>
+        <p style="text-align:left">
+                1. <U>User interaction</U> -
+                The major difference between Web 1.0 and the other two is that Web 1.0
+                did not offer an interactive experience to the user. The pages were static, not allowing
+                the user to filter information or post feedbacks, for example.
+                Web 2.0 and Web 3.0 changed that by allowing interaction between site users and site owners.
+                <br>
+                2. <U>Types of pages</U> - Another difference is the types of pages the web consisted of.
+                Web 1.0, as a result of being non-intractive, consisted of mostly personal
+                pages, as opposed to Web 2.0 and Web 3.0 that consists of sites like blogs, social media, Wikis etc.
+                <br>
+                3. <U>Search</U> - In Web 1.0 search is very fast but many times results are
+                inaccurate. In Web 2.0 search engines improved and are able to retrive a lot more
+                relevant sites, and more accurate results.
+                In Web 3.0 search engine will be able to retrive the actual answer to a query, and not
+                a list of websites, using the data on the web.
+
+            </LI>
         <p>
-            The major difference between Web 1.0 and the rest is that Web 1.0
-            did not offer an interactive experience to the user. The pages were static, not allowing
-            the user to filter information, or post feedbacks.
-            In addition, the design of the pages was basic, and data was updated only every once in a while.
-            As a result, the web consisted of mostly personal pages.
+        <br>
+        <br>
+        <br>
+        <h2>An example that demonstrates the differences:</h2>
+        <h3>Searching a query: "best rock bands in 1999"</h3>
+        <p style="text-align: left">
+            <U><B>Web 1.0</B></U> - returns many unrelevant websites. For example - sites
+            containing informations about rocks (stones). Also, sites that could
+            be relevent but do not conatin the exact query terms will not be retrived (For example,
+            sites about "most popular punk ensembles").
+            It will be hard to find the sites I wanted in the results.
             <br>
-            Web 2.0 changed that by allowing interaction between site users and site owners.
-            Users were able to sort information, and the content of the pages became dynamic and responsive.
-            As a result of that different kind of websites like Facebook, Wikipedia, blogs etc were created.
-            Another significant change was the abilty to search the web more efficiently, for example, by using Google
-            search engine.
+            <U><B>Web 2.0</B></U> - returns a list of relevant websites: Lists of best rock groups in 1999,
+            best bands in subgenres of rock, sites about popular bands in 1999 and many more.
+            Most of the retrived sites will be informative for me, and probably will not be missing
+            any important site.
             <br>
-            Web 3.0 is about altering the Web into a database, and making it more semantic.
-            It uses artificial intelligence in order to provide faster and more relevant results.
-            One example is the result of a search query: retrive the actual answer to a query, instead of a list
-            of websites that are relevant to it. In addition, graphics are more rich, including 3D graphics.
+            <U><B>Web 3.0</B></U> - returns a list of the best rock bands in 1999, using the information
+            found on the web.
         </p>
-        <br />
-        <br />
         <br />
         <br />
     </section>
 
     <section id="contact" class="section">
-        <br />
-        <br />
-        <br />
-        <br />
         <div class="strike">
             <span>
-                <h1>Contact Me</h1>
+                <h1 style="font-family: 'Lemon', cursive;">Contact Me</h1>
             </span>
         </div>
         <br />
         <br />
-        <h2>Send me an e-mail:</h2>
+        <h2 style="text-align: center">Send me an e-mail:</h2>
 
-        <form action="mailto:chenfi@post.bgu.ac.il" method="post" enctype="text/plain">
+        <form style="text-align: center" action="mailto:chenfi@post.bgu.ac.il" method="post" enctype="text/plain">
             Name:<br>
             <input type="text" name="name"><br>
             E-mail:<br>
             <input type="text" name="mail"><br>
-            Comment:<br>
-            <input type="text" name="comment" size="50"><br><br>
+            Message:<br>
+            <input type="text" name="message" size="50"><br><br>
             <input type="submit" value="Send">
             <input type="reset" value="Reset">
         </form>
